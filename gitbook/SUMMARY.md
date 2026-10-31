@@ -1,0 +1,18 @@
+# Table of contents
+
+* [White Paper](README.md)
+* [Executive Summary for Universities](01-executive-summary.md)
+* [Motivation & Research Gap](02-motivation.md)
+* [Background: Indus, Meluhha & Comparanda](03-background.md)
+* [Research Questions (A–D)](04-questions.md)
+* [Platform Architecture](05-architecture.md)
+* [Data Provenance & Ethics](06-provenance.md)
+* [Methods: Statistics, History, Hypotheses](07-methods.md)
+* [Falsification Framework](08-falsification.md)
+* [Results from the Demonstration Corpus](09-results.md)
+* [Speculative Translation Lab](10-translation-lab.md)
+* [Why Universities Should Engage](11-university-case.md)
+* [Limitations & Non-Claims](12-limitations.md)
+* [Conclusions & Roadmap](13-conclusions.md)
+* [References](14-references.md)
+* [Reproduce & Cite](15-reproduce.md)
