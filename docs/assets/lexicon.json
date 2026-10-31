@@ -1,0 +1,257 @@
+{
+  "king": {
+    "gloss_frame": "ruler / authority (administrative hypothesis)",
+    "proto_dravidian_placeholder": "*k\u014d / *mann- (illustrative only)",
+    "semantic_tags": [
+      "authority",
+      "person"
+    ],
+    "prefer_position": "beginning"
+  },
+  "ruler": {
+    "gloss_frame": "ruler / authority (administrative hypothesis)",
+    "proto_dravidian_placeholder": "*k\u014d (illustrative only)",
+    "semantic_tags": [
+      "authority",
+      "person"
+    ],
+    "prefer_position": "beginning"
+  },
+  "merchant": {
+    "gloss_frame": "trader / Meluhha-contact trade frame",
+    "proto_dravidian_placeholder": "unassigned \u2014 trade title hypothesis",
+    "semantic_tags": [
+      "trade",
+      "person"
+    ],
+    "prefer_position": "beginning"
+  },
+  "trader": {
+    "gloss_frame": "trader / Meluhha-contact trade frame",
+    "proto_dravidian_placeholder": "unassigned",
+    "semantic_tags": [
+      "trade",
+      "person"
+    ],
+    "prefer_position": "beginning"
+  },
+  "fish": {
+    "gloss_frame": "fish / aquatic commodity (iconographic + Dravidian *min hypothesis)",
+    "proto_dravidian_placeholder": "*min (published reconstruction exists for 'fish'; Indus link unproven)",
+    "semantic_tags": [
+      "commodity",
+      "animal"
+    ],
+    "prefer_position": "middle"
+  },
+  "grain": {
+    "gloss_frame": "grain / staple commodity (admin seal hypothesis)",
+    "proto_dravidian_placeholder": "unassigned",
+    "semantic_tags": [
+      "commodity"
+    ],
+    "prefer_position": "middle"
+  },
+  "copper": {
+    "gloss_frame": "copper / Magan\u2013Dilmun trade commodity frame",
+    "proto_dravidian_placeholder": "unassigned",
+    "semantic_tags": [
+      "commodity",
+      "trade"
+    ],
+    "prefer_position": "middle"
+  },
+  "seal": {
+    "gloss_frame": "ownership / control mark (terminal jar/control hypothesis)",
+    "proto_dravidian_placeholder": "non-linguistic terminal mark possible",
+    "semantic_tags": [
+      "formula",
+      "control"
+    ],
+    "prefer_position": "ending"
+  },
+  "owner": {
+    "gloss_frame": "owner / possessive formula",
+    "proto_dravidian_placeholder": "unassigned",
+    "semantic_tags": [
+      "person",
+      "formula"
+    ],
+    "prefer_position": "beginning"
+  },
+  "god": {
+    "gloss_frame": "deity / ritual frame (highly speculative)",
+    "proto_dravidian_placeholder": "unassigned",
+    "semantic_tags": [
+      "ritual"
+    ],
+    "prefer_position": "beginning"
+  },
+  "city": {
+    "gloss_frame": "place / settlement name frame",
+    "proto_dravidian_placeholder": "unassigned toponym",
+    "semantic_tags": [
+      "place"
+    ],
+    "prefer_position": "middle"
+  },
+  "harappa": {
+    "gloss_frame": "place-name frame (Harappa)",
+    "proto_dravidian_placeholder": "toponym \u2014 not a phonetic Indus reading",
+    "semantic_tags": [
+      "place"
+    ],
+    "prefer_position": "middle"
+  },
+  "mohenjo": {
+    "gloss_frame": "place-name frame (Mohenjo-daro)",
+    "proto_dravidian_placeholder": "toponym \u2014 not a phonetic Indus reading",
+    "semantic_tags": [
+      "place"
+    ],
+    "prefer_position": "middle"
+  },
+  "daro": {
+    "gloss_frame": "place-name frame (Mohenjo-daro)",
+    "proto_dravidian_placeholder": "toponym",
+    "semantic_tags": [
+      "place"
+    ],
+    "prefer_position": "middle"
+  },
+  "give": {
+    "gloss_frame": "transfer / delivery verb (admin hypothesis)",
+    "proto_dravidian_placeholder": "unassigned",
+    "semantic_tags": [
+      "verb",
+      "trade"
+    ],
+    "prefer_position": "middle"
+  },
+  "send": {
+    "gloss_frame": "dispatch / shipment verb (trade hypothesis)",
+    "proto_dravidian_placeholder": "unassigned",
+    "semantic_tags": [
+      "verb",
+      "trade"
+    ],
+    "prefer_position": "middle"
+  },
+  "receive": {
+    "gloss_frame": "receipt verb (admin hypothesis)",
+    "proto_dravidian_placeholder": "unassigned",
+    "semantic_tags": [
+      "verb",
+      "trade"
+    ],
+    "prefer_position": "middle"
+  },
+  "man": {
+    "gloss_frame": "person / human referent",
+    "proto_dravidian_placeholder": "*\u0101\u1e37 / *man (illustrative only)",
+    "semantic_tags": [
+      "person"
+    ],
+    "prefer_position": "beginning"
+  },
+  "woman": {
+    "gloss_frame": "person / human referent",
+    "proto_dravidian_placeholder": "unassigned",
+    "semantic_tags": [
+      "person"
+    ],
+    "prefer_position": "beginning"
+  },
+  "water": {
+    "gloss_frame": "water / river commodity or place frame",
+    "proto_dravidian_placeholder": "*n\u012br (illustrative only)",
+    "semantic_tags": [
+      "commodity",
+      "place"
+    ],
+    "prefer_position": "middle"
+  },
+  "boat": {
+    "gloss_frame": "vessel / maritime trade frame (Dilmun\u2013Meluhha)",
+    "proto_dravidian_placeholder": "unassigned",
+    "semantic_tags": [
+      "trade",
+      "transport"
+    ],
+    "prefer_position": "middle"
+  },
+  "temple": {
+    "gloss_frame": "institution / ritual building (speculative)",
+    "proto_dravidian_placeholder": "unassigned",
+    "semantic_tags": [
+      "ritual",
+      "place"
+    ],
+    "prefer_position": "beginning"
+  },
+  "offering": {
+    "gloss_frame": "dedication / offering formula",
+    "proto_dravidian_placeholder": "unassigned",
+    "semantic_tags": [
+      "ritual",
+      "formula"
+    ],
+    "prefer_position": "ending"
+  },
+  "of": {
+    "gloss_frame": "relational / genitive particle hypothesis",
+    "proto_dravidian_placeholder": "case marker hypothesis (unproven)",
+    "semantic_tags": [
+      "grammar"
+    ],
+    "prefer_position": "middle"
+  },
+  "the": {
+    "gloss_frame": "(ignored determiner \u2014 English-only)",
+    "proto_dravidian_placeholder": "\u2014",
+    "semantic_tags": [
+      "skip"
+    ],
+    "prefer_position": "middle"
+  },
+  "a": {
+    "gloss_frame": "(ignored determiner \u2014 English-only)",
+    "proto_dravidian_placeholder": "\u2014",
+    "semantic_tags": [
+      "skip"
+    ],
+    "prefer_position": "middle"
+  },
+  "an": {
+    "gloss_frame": "(ignored determiner \u2014 English-only)",
+    "proto_dravidian_placeholder": "\u2014",
+    "semantic_tags": [
+      "skip"
+    ],
+    "prefer_position": "middle"
+  },
+  "to": {
+    "gloss_frame": "directional / dative hypothesis",
+    "proto_dravidian_placeholder": "case marker hypothesis (unproven)",
+    "semantic_tags": [
+      "grammar"
+    ],
+    "prefer_position": "middle"
+  },
+  "from": {
+    "gloss_frame": "ablative / source hypothesis",
+    "proto_dravidian_placeholder": "case marker hypothesis (unproven)",
+    "semantic_tags": [
+      "grammar"
+    ],
+    "prefer_position": "middle"
+  },
+  "and": {
+    "gloss_frame": "coordinator hypothesis",
+    "proto_dravidian_placeholder": "unassigned",
+    "semantic_tags": [
+      "grammar"
+    ],
+    "prefer_position": "middle"
+  }
+}

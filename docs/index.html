@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>IndusScript AI — Speculative Translation Lab</title>
+  <meta name="description" content="Interactive speculative Indus script research lab. Not a decipherment." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="shell">
+    <header>
+      <h1>IndusScript AI</h1>
+      <p class="tagline">Comparative research platform · parchment public demo</p>
+    </header>
+
+    <div class="banner" id="banner">Loading…</div>
+    <p class="note">
+      Type an English sentence and see an <strong>assumed</strong> Indus symbol line
+      built from corpus frequency heuristics and language-frame hypotheses.
+      Symbols are visual proxies for readability. This is a hypothesis sandbox — not a decoder.
+    </p>
+
+    <nav class="tabs" aria-label="Sections">
+      <button type="button" class="active" data-panel="lab">Speculative Translation Lab</button>
+      <button type="button" data-panel="about">About &amp; integrity</button>
+      <button type="button" data-panel="questions">Four research questions</button>
+    </nav>
+
+    <section id="lab" class="panel active">
+      <h2>English → assumed Indus symbols</h2>
+      <p id="corpus-stats" class="note" style="margin-top:0"></p>
+
+      <div class="row">
+        <div>
+          <label for="sentence">English sentence</label>
+          <textarea id="sentence">The merchant sends copper to the city</textarea>
+          <div class="examples" id="examples" aria-label="Examples"></div>
+        </div>
+        <div>
+          <label for="frame">Assumed language frame</label>
+          <select id="frame">
+            <option>Proto-Dravidian (assumed)</option>
+            <option>Munda-related (assumed)</option>
+            <option>Language isolate (assumed)</option>
+            <option>Non-linguistic / admin marks (assumed)</option>
+          </select>
+          <label for="direction">Display reading direction</label>
+          <select id="direction">
+            <option value="RTL" selected>RTL</option>
+            <option value="LTR">LTR</option>
+          </select>
+          <button class="primary" id="translate-btn" type="button">Build assumed Indus writing</button>
+        </div>
+      </div>
+
+      <div id="result" hidden>
+        <h2>Assumed translation (SPECULATIVE)</h2>
+        <div class="metrics">
+          <div class="metric"><span>Confidence</span><strong id="metric-conf">—</strong></div>
+          <div class="metric"><span>Evidence tier</span><strong id="metric-tier">—</strong></div>
+          <div class="metric"><span>Symbols assigned</span><strong id="metric-n">—</strong></div>
+        </div>
+
+        <h3>English</h3>
+        <div class="english-box" id="english-out"></div>
+
+        <h3>How it might look in Indus signs (assumed)</h3>
+        <div class="glyphs" id="glyph-row"></div>
+        <p class="order-line" id="order-line"></p>
+
+        <h3>Word-by-word assumed mapping</h3>
+        <div class="mapping" id="mapping"></div>
+
+        <details open>
+          <summary>Why this mapping? (proof from analysed corpora)</summary>
+          <p class="note">
+            Method: parse English tokens → look up speculative concept frames →
+            assign unused high-frequency Indus signs weighted by preferred position →
+            report comparative structural scores.
+          </p>
+          <table id="proof-table">
+            <thead>
+              <tr>
+                <th>English</th>
+                <th>Symbol motif</th>
+                <th>Corpus rank</th>
+                <th>Assumed meaning frame</th>
+                <th>Reconstructed placeholder</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+          <h3>Comparative structural similarity</h3>
+          <table id="js-table">
+            <thead>
+              <tr>
+                <th>Comparison</th>
+                <th>Difference score</th>
+                <th>How to read it</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </details>
+
+        <details open>
+          <summary>Assumptions &amp; limitations</summary>
+          <h3>Assumptions</h3>
+          <ul id="assumptions"></ul>
+          <h3>Limitations</h3>
+          <ul id="limitations"></ul>
+        </details>
+
+        <details>
+          <summary>Catalogue IDs (researchers only)</summary>
+          <p id="ids-hidden" style="font-family: ui-monospace, monospace"></p>
+        </details>
+      </div>
+    </section>
+
+    <section id="about" class="panel">
+      <h2>About</h2>
+      <p class="note">
+        IndusScript AI investigates the undeciphered Indus Valley writing system with
+        computational linguistics, historical Meluhha/trade evidence, comparative
+        statistics, and falsification controls. The full Python/Streamlit research
+        platform lives in the GitHub repository. This GitHub Pages site is a public,
+        interactive <em>speculative</em> demo anyone can use in the browser.
+      </p>
+      <p class="note">
+        <strong>Integrity:</strong> Visual similarity and structural scores are not proof
+        of common ancestry or shared meaning. Candidate readings are hypotheses until
+        independently supported. Meluhha in Mesopotamian texts is not automatically the
+        language of Indus inscriptions.
+      </p>
+      <p>
+        Repository:
+        <a id="repo-link" href="https://github.com/AmmarJamshed/indusscript-ai">github.com/AmmarJamshed/indusscript-ai</a>
+      </p>
+    </section>
+
+    <section id="questions" class="panel">
+      <h2>Four research questions (kept distinct)</h2>
+      <ol class="note">
+        <li><strong>A.</strong> Are the symbols visually similar?</li>
+        <li><strong>B.</strong> Do the writing systems exhibit similar structural properties?</li>
+        <li><strong>C.</strong> Is there evidence of linguistic relationships, borrowing or contact?</li>
+        <li><strong>D.</strong> Can any Indus sign sequences be assigned defensible candidate meanings?</li>
+      </ol>
+    </section>
+
+    <footer>
+      Public demo for education and research triage. Not a claim that Indus has been deciphered.
+    </footer>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>

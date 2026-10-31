@@ -1,0 +1,61 @@
+[
+  {
+    "evidence_id": "SYNTHETIC-MEL-001",
+    "original_text": null,
+    "transliteration": "lu2 me-luh-ha",
+    "translation": "SYNTHETIC: 'man of Meluhha' — illustrative gloss only",
+    "date": "Ur III (illustrative)",
+    "source_citation": "SYNTHETIC placeholder — replace with CDLI/ORACC citation",
+    "historical_location": "Ur (illustrative)",
+    "named_people": [],
+    "commodity_references": [
+      "illustrative_commodity"
+    ],
+    "confidence": 0.1,
+    "uncertainty": "Entirely synthetic for software testing",
+    "period": "Ur III",
+    "mentions_interpreter": false,
+    "is_synthetic": true,
+    "evidence_tier": "speculative_interpretation"
+  },
+  {
+    "evidence_id": "SYNTHETIC-MEL-002",
+    "original_text": null,
+    "transliteration": "eme-bal me-luh-ha",
+    "translation": "SYNTHETIC: Meluhhan interpreter — illustrative gloss only",
+    "date": "Old Akkadian / Ur III (illustrative)",
+    "source_citation": "SYNTHETIC placeholder — cite primary publication",
+    "historical_location": "Mesopotamia (illustrative)",
+    "named_people": [],
+    "commodity_references": [],
+    "confidence": 0.1,
+    "uncertainty": "Synthetic; Meluhha ≠ proven Indus language identity",
+    "period": "Ur III",
+    "mentions_interpreter": true,
+    "is_synthetic": true,
+    "evidence_tier": "speculative_interpretation"
+  },
+  {
+    "evidence_id": "SYNTHETIC-MEL-003",
+    "original_text": null,
+    "transliteration": "dilmun / magan / me-luh-ha trade triad (illustrative)",
+    "translation": "SYNTHETIC: trade-network placeholder linking Dilmun, Magan, Meluhha",
+    "date": "3rd millennium BCE (illustrative)",
+    "source_citation": "SYNTHETIC — replace with published administrative texts",
+    "historical_location": "Persian Gulf / Indus corridor (illustrative)",
+    "named_people": [
+      "SYNTHETIC-merchant"
+    ],
+    "commodity_references": [
+      "copper",
+      "carnelian",
+      "timber"
+    ],
+    "confidence": 0.1,
+    "uncertainty": "Synthetic aggregation of well-known scholarly themes",
+    "period": "ED / Akkadian / Ur III",
+    "mentions_interpreter": false,
+    "is_synthetic": true,
+    "evidence_tier": "speculative_interpretation"
+  }
+]

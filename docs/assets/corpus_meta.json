@@ -1,0 +1,61 @@
+{
+  "ranked_signs": [
+    "IVS001",
+    "IVS002",
+    "IVS003",
+    "IVS004",
+    "IVS005",
+    "IVS006",
+    "IVS007",
+    "IVS008",
+    "IVS009",
+    "IVS010",
+    "IVS011",
+    "IVS012",
+    "IVS013",
+    "IVS014",
+    "IVS015",
+    "IVS016",
+    "IVS017",
+    "IVS018",
+    "IVS019",
+    "IVS020",
+    "IVS021",
+    "IVS022",
+    "IVS023",
+    "IVS024",
+    "IVS025",
+    "IVS026",
+    "IVS027",
+    "IVS028",
+    "IVS029",
+    "IVS030",
+    "IVS031",
+    "IVS032",
+    "IVS033",
+    "IVS034",
+    "IVS035",
+    "IVS036",
+    "IVS037",
+    "IVS038",
+    "IVS039",
+    "IVS040"
+  ],
+  "n_inscriptions": 25,
+  "inventory_size": 40,
+  "comparisons": {
+    "sumerian": {
+      "js_divergence": 0.42,
+      "note": "Lower score = closer frequency structure (not shared meaning)."
+    },
+    "akkadian": {
+      "js_divergence": 0.39,
+      "note": "Lower score = closer frequency structure (not shared meaning)."
+    },
+    "egyptian": {
+      "js_divergence": 0.47,
+      "note": "Lower score = closer frequency structure (not shared meaning)."
+    }
+  },
+  "banner": "SPECULATIVE ASSUMED TRANSLATION \u2014 not independently verified. Indus remains undeciphered. Similarity is not shared meaning."
+}
