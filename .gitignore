@@ -22,5 +22,7 @@ reports/*.md
 !reports/.gitkeep
 .DS_Store
 *.png
+!gitbook/.gitbook/assets/*.png
+!docs/whitepaper/figures/*.png
 *.pt
 *.bin
