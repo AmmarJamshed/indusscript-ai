@@ -41,6 +41,12 @@ Interactive browser demo (Speculative Translation Lab — static, no server):
 
 **https://ammarjamshed.github.io/indusscript-ai/**
 
+**University white paper (GitBook):**  
+**https://livestockmon.gitbook.io/indus-script-similarity/indusscript-ai-white-paper/**
+
+**Colour HTML white paper (GitHub Pages):**  
+**https://ammarjamshed.github.io/indusscript-ai/whitepaper/**
+
 > GitHub Pages serves static sites only. The full Streamlit research dashboard needs a Python host (local or Streamlit Community Cloud). The Pages site covers the public translation lab with the parchment UI.
 
 ## Quick start (full research app)
